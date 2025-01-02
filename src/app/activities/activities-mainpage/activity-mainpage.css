@@ -1,0 +1,190 @@
+/* General styles remain unchanged */
+.activites-main-pagecontain .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 1.25rem; /* Tailwind's gap-1 translates to 0.25rem or 4px */
+  width: 100%;
+}
+.activites-main-pagecontain .card {
+  background-color: #fff7f0;
+  border: 1px solid #f8bf86;
+  padding: 1rem 1rem;
+}
+
+.activites-main-pagecontain .image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-height: 14rem;
+}
+
+.activites-main-pagecontain .card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.493);
+}
+
+.activites-main-pagecontain .card-body {
+  padding: 1rem;
+}
+
+.activites-main-pagecontain .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activites-main-pagecontain .text-success {
+  color: #f1871c !important;
+  font-weight: 500;
+  height: 20px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.activites-main-pagecontain .text-muted {
+  color: #6c757d !important;
+  font-size: 12px;
+  height: 10px;
+}
+.activites-main-pagecontain .tax {
+  text-align: right;
+  font-size: 10px;
+}
+
+.activites-main-pagecontain .text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.activites-main-pagecontain .btn-primary {
+  background: linear-gradient(95deg, #F1871C 1.46%, #E35515 105.76%);
+  padding: 0.1rem 0.5rem;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+  justify-content: space-between;
+  gap: 0.2rem;
+}
+
+
+
+.activites-main-pagecontain .container {
+  padding: 1rem;
+  position: relative;
+}
+
+.activites-main-pagecontain .plane {
+  margin-left: 3px;
+}
+
+.activites-main-pagecontain .bg {
+  background-color: #fff6ef;
+}
+
+.activites-main-pagecontain .grid2 {
+  display: flex;
+  justify-content: center;
+}
+
+.activites-main-pagecontain .crd {
+  background-color: white;
+  border-radius: 15px;
+  padding-inline: 2.5rem;
+  margin: 1rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.activites-main-pagecontain .active {
+  background-color: #e65e17;
+  color: white;
+}
+
+.activites-main-pagecontain .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.activites-main-pagecontain .drpdown {
+  height: 3rem;
+  width: 18rem;
+}
+
+.activites-main-pagecontain .w-5 {
+  width: 15rem;
+}
+
+.activites-main-pagecontain .floater {
+  position: absolute;
+  background: linear-gradient(to right, #f1871c, #e35515);
+  left: 0;
+  padding: 0.5rem;
+  top: 2rem;
+  color: white;
+}
+
+.activites-main-pagecontain .text-xs {
+  font-size: 10px;
+  height: 15px;
+}
+
+/* === RESPONSIVE STYLES FOR MOBILE === */
+@media (max-width: 768px) {
+  .activites-main-pagecontain .grid {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 0.75rem; /* Smaller gap for mobile */
+  }
+
+  .activites-main-pagecontain .card,
+  .activites-main-pagecontain .card-body,
+  .activites-main-pagecontain .crd,
+  .activites-main-pagecontain .btn-primary {
+    text-align: center; /* Center align all content */
+  }
+
+  .activites-main-pagecontain .flex {
+    flex-direction: column; /* Stack flex items vertically */
+    align-items: center; /* Center align items horizontally */
+  }
+
+
+
+  .activites-main-pagecontain .btn-primary:hover {
+    background-color: #004d50 !important; /* Darker shade on hover */
+  }
+
+  .activites-main-pagecontain .plane {
+    width: 20px; /* Adjust the size of the airplane image */
+    height: auto;
+  }
+
+  .activites-main-pagecontain .text-muted.tax {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #888;
+  }
+
+  .activites-main-pagecontain .drpdown,
+  .activites-main-pagecontain .w-5 {
+    width: 100%; /* Full width dropdown */
+  }
+
+  .activites-main-pagecontain .floater {
+    position: relative; /* Adjust positioning */
+    text-align: center;
+  }
+  .activites-main-pagecontain .heading-for-all{
+    text-align: center;
+  }
+}
+.slick-top-cities-visit{
+  margin-top: 3rem;
+}
+

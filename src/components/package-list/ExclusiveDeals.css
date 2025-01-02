@@ -1,0 +1,175 @@
+.nexa-font{
+  font-family: 'Nexa';
+}
+
+.manrope-font{
+  font-family: 'Manrope';
+}
+
+.roboto-font{
+  font-family: 'Roboto';
+}
+
+.exclusive-deals-container {
+    padding: 20px;
+    overflow: visible;
+  }
+  .carousel-cover{
+    width: 700px!important;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+  }
+  
+  .exclusive-deals-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .exclusive-deals-title{
+    display: flex;
+    align-items: center;
+  }
+  
+  .exclusive-deals-header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .hot-deal {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    width: 200px;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: orangered;
+  }
+  
+  .hot-deal span {
+    display: block;
+    height: 2px;
+    background: orange;
+    width: 100%;
+  }
+  
+  .arrows {
+    display: flex;
+    gap: 1px;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  .arrow-left{
+    background-color: #adaaaa;
+    border-radius: 100%;
+    color: white;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+  }
+  .arrow-right{
+    background-color: rgb(237, 93, 40);
+    border-radius: 100%;
+    color: white;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+  }
+  
+  .exclusive-deals-carousel {
+    display: flex;
+    gap: 15px!important;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid orange;
+    background-color: #fffaf0;
+    padding: 10px;
+    position: relative;
+    gap: 20px!important;
+    width: 290px!important;
+    height: 230px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: absolute;
+    overflow: visible;
+    left: -50px;
+  }
+  .slide-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 97px;
+    height: 160px;
+     border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .slide-details {
+    padding-left: 20px;
+    flex-grow: 1;
+    margin-left: 45px;
+  }
+  
+  .slide-details h3 {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .slide-details p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: gray;
+  }
+  
+  .book-now {
+    color: orange;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transform: scale(0.9);
+  }
+  
+  .fixed-departure {
+    position: absolute;
+    top: 10px;
+    background-color: transparent;
+    right: 10px;
+    border: 1px solid orange;
+    color: orange;
+    padding: 3px 8px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  

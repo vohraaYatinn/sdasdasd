@@ -1,0 +1,63 @@
+
+
+
+.main-package-details-div h1{
+    font-size: 90%;
+}
+.main-package-details-div p{
+    font-size: 90%;
+    line-height: 1.6rem;
+    opacity: 90%;
+}
+.room-suits-page {
+    padding:0px 180px;
+    padding-top: 120px;
+}
+.main-card-for-umrah{
+    border-radius: 45px !important;
+    border: 1px solid #F1871C;
+    background: #FFF5EB;
+    overflow: hidden;
+}
+.hotel-suits-card-button{
+    border-radius: 21px;
+background: linear-gradient(95deg, #F1871C 1.46%, #E35515 105.76%) ;
+
+}
+.room-card-hotel h6{
+    font-weight: 400 !important;
+
+}
+.room-card-hotel h6 span{
+    font-weight: 100;
+    color: #F1871C;    
+}
+.list-room-ul{
+    display: flex;
+}
+.list-room-ul div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.list-room-ul div p{
+    margin: 0rem;
+}
+.room-ul-left{
+    margin-left: 1rem;
+}
+
+@media (max-width: 1440px) {
+    .room-suits-page {
+        padding: 0rem 50px;
+        padding-top: 90px;
+
+    }
+}
+@media (max-width: 576px) {
+    .room-suits-page {
+        padding: 0rem;
+        padding-top: 50px;
+
+    }
+}
