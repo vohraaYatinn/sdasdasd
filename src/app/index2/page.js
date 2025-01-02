@@ -14,6 +14,7 @@ import Home2WhyChoose from "@/components/whyChoose/Home2WhyChoose";
 import React from "react";
 import '../../components/stylebook/Home.css'
 
+
 import '../../components/stylebook/Exclusive.css'
 import '../../components/stylebook/Footer.css'
 import '../../components/stylebook/Comments.css'
