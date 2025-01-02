@@ -66,7 +66,11 @@ function reducer(state, action) {
 }
 
 const Header6 = () => {
-  const getToken = localStorage.getItem("jwtToken")
+  const [getToken, setToken] = useState("") 
+
+  useEffect(()=>{
+    setToken(localStorage.getItem("jwtToken"))
+  },[])
   const [state, dispatch] = useReducer(reducer, initialState);
   const headerRef = useRef(null);
   const pathname = usePathname();

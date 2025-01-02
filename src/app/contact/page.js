@@ -25,10 +25,10 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <a href="tel:">+97145573599</a>
+                    <a href="tel:">+971-45573599</a>
                   </h6>
                   <h6>
-                    <a href="tel:"> +971589625786</a>
+                    <a href="tel:"> +971-589625786</a>
                   </h6>
                 </div>
               </div>
@@ -51,9 +51,7 @@ const page = () => {
                   <h6>
                     <a href="mailto:holidays@atstourstravels.com">holidays@atstourstravels.com</a>
                   </h6>
-                  <h6>
-                    <a href="mailto:holidays@atstourstravels.com">holidays@atstourstravels.com</a>
-                  </h6>
+                
                 </div>
               </div>
               <div className="single-contact">

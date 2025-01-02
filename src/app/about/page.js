@@ -31,7 +31,7 @@ const page = () => {
       <AboutTop/>
       <AboutFeature/>
       <AboutActivities/>
-      <AboutTeam/>
+      {/* <AboutTeam/> */}
       <AboutBlog/>
       {/* <Home2About />
       <Home2WhyChoose />

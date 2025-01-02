@@ -16,7 +16,7 @@ const AboutFeature = () => {
                         </div>
                     </div>
                     <div className="row gy-5 mb-80">
-                        <div className="col-xl-4 col-md-6">
+                        <div className="col-xl-6 col-md-6">
                             <div className="feature-card style-2 secondary">
                                 <div className="feature-card-icon">
                                     <svg
@@ -36,7 +36,7 @@ const AboutFeature = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col.-md-6 pt-15">
+                        <div className="col-xl-6 col.-md-6 pt-15">
                             <div className="feature-card style-2 secondary">
                                 <div className="feature-card-icon">
                                     <svg
@@ -57,7 +57,7 @@ const AboutFeature = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-md-6">
+                        <div className="col-xl-6 col-md-6">
                             <div className="feature-card style-2 secondary">
                                 <div className="feature-card-icon">
                                     <svg
@@ -82,7 +82,7 @@ const AboutFeature = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-md-6">
+                        <div className="col-xl-6 col-md-6">
                             <div className="feature-card style-2 secondary">
                                 <div className="feature-card-icon">
                                     <svg
