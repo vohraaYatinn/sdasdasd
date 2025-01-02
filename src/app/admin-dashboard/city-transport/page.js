@@ -416,7 +416,7 @@ const page = () => {
                     console.log("sss");
                     setSelectedFilter("All");
                   }}
-                  className={`${selectedFilter == "All" && "div-sel-active-rak"}`}
+                  className={`${seletedFilter == "All" && "div-sel-active-rak"}`}
                 >
                   <p>All</p>
                 </div>
