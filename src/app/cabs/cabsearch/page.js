@@ -14,7 +14,7 @@ import img3 from "@/../public/image/icons/Frame (2).png";
 import img4 from "@/../public/image/icons/Frame (3).png";
 import img5 from "@/../public/image/icons/Frame (4).png";
 import head from "@/../public/image/icons/head.png";
-import link from "@/../public/image/link.png";
+// import link from "@/../public/image/link.png";
 import arrow from "@/../public/image/arrow.png";
 import "@/app/cabs/cabsearch/page.css";
 import Image from "next/image";
@@ -407,9 +407,9 @@ const CabSearch = () => {
 
       <div className="flex" style={{ justifyContent: "center" }}>
         <div className="flex w-5">
-          <Image src={link} />
+          {/* <Image src={link} />
           1 2 3 ... 6
-          <Image src={link} style={{ rotate: "180deg" }} />
+          <Image src={link} style={{ rotate: "180deg" }} /> */}
         </div>
       </div>
 
